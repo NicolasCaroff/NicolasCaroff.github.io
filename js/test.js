@@ -177,7 +177,7 @@ function update()
 
   // Movimiento propio del cubo
   cubo.rotation.y += angulo;
-  cubo.rotation.x += angulo/2;
+  cubo.rotation.x += angulo;
 }
 
 function render()
